@@ -1,2 +1,1 @@
-# containerizing-tests
-Containerizing (Podman/Docker) Test Applications
+# Containerizing (Podman/Docker) Test/Example Applications
