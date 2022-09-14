@@ -8,7 +8,7 @@ WORKDIR /app
 # Install packages
 COPY package.json ./
 COPY yarn.lock ./
-RUN yarn install --production --immutable --non-interactive
+RUN yarn install --production --immutable --non-interactive --pure-lockfile
 
 # Add code to image
 COPY ./server.js ./server.js
